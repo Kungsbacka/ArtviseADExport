@@ -11,5 +11,6 @@
     Password = ''
     # Filter to Get-ADUser
     Filter = ''
-    OuToExport = @('<array of OUs to export users from>')
+    # Array of OUs to export users from
+    OuToExport = @()
 }
