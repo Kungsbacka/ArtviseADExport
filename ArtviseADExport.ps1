@@ -49,5 +49,3 @@ $params = @{
     InFile = "$PSScriptRoot\export.xml"
 }
 Invoke-WebRequest @params
-Start-Sleep -Seconds 2 # Invoke-WebRequest doesn't release the file immediately
-Remove-Item -Path "$PSScriptRoot\export.xml"

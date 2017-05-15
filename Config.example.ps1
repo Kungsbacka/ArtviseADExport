@@ -1,7 +1,6 @@
 ﻿$Config = @{
     UploadUri = ''
     Username = ''
-    Username = ''
     # Encrypted password.
     # To encrypt:
     #   Start a PowerShell window as the user that is going to run the script.
